@@ -1,4 +1,6 @@
+import br.com.alura.screenmatch.calculos.CalculadoraDeTempo;
 import br.com.alura.scrrenmatch.modelos.Filme;
+import br.com.alura.scrrenmatch.modelos.Serie;
 
 public class Principal {
     public static void main(String[] args) {
@@ -16,6 +18,10 @@ public class Principal {
         System.out.println(filme001.getSomaAvaliacoes());
         System.out.println(filme001.getTotalDeAvaliacao());
         System.out.println(filme001.pegaMedia());
+
+        CalculadoraDeTempo caluladora = new CalculadoraDeTempo();
+        caluladora.inclui(filme001);
+        System.out.println(caluladora.getTempoTotal());
 
     }
 }
