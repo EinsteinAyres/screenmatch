@@ -1,4 +1,4 @@
-package br.com.alura.scrrenmatch.modelos;
+package br.com.alura.screenmatch.modelos;
 
 public class Serie extends Titulo {
 
